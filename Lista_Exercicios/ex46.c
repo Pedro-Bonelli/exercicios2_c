@@ -1,4 +1,4 @@
-// Escreva um algoritmo para ler 2 valores e se o segundo valor informado for ZERO, deve ser lido um novo valor, ou seja, para o segundo valor não pode ser aceito o valor zero e imprimir o resultado da divisão do primeiro valor lido pelo segundo valor lido.
+// Acrescentar uma mensagem de 'VALOR INVÁLIDO' no exercício [44] caso o segundo valor informado seja ZERO.
 
 #include <stdio.h>
 
@@ -18,7 +18,8 @@ int main(){
 
     while (n2 == 0)
     {
-        printf("N1: ");
+        printf("Inválido\n");
+        printf("N2: ");
         scanf("%f", &n2);
     }
     
